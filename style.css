@@ -80,22 +80,24 @@ a:hover {
     padding-bottom: 42px;
     color: #333;
     background-color: #eaeaea;
+    text-align: center;
 }
+
 .development-title {
     font-size: 28px;
     font-weight: bold;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
+}
 
-}
 .development-sections {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px
+    column-count: 2; 
+    column-gap: 40px; 
+    max-width:47%;
+    margin: 0 auto; 
 }
+
 .development-sections p {
     padding-top: 10px;
-    max-width: 22%;
 }
 
 /* mobile */
