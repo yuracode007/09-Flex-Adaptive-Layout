@@ -1,0 +1,57 @@
+@media (max-width: 700px) {
+
+    /* development */
+
+    .development-sections{
+        column-count: 1; 
+        max-width: 80%; 
+    }
+
+    /* mobile */
+
+    .mobile-list {
+        flex-direction: column;
+        gap: 30px; 
+    }
+
+    .mobile-list--item {
+        width: 80%; 
+    }
+
+    .mobile-card {
+        max-width: 100%; 
+    }
+
+    .mobile-card--title {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    /* contact */
+    
+    .contact-wrapper {
+        flex-direction: column; 
+    }
+
+    .contact-box {
+        padding: 40px 20px; 
+    }
+
+    .contact-box h3 {
+        font-size: 20px; 
+    }
+
+    .contact-box p {
+        padding-top: 20px; 
+    }
+
+    .contact-mail {
+        margin-top: 20px;
+    }
+
+    /* footer */
+
+    .footer {
+        flex-direction: column; /* Блоки вертикально */
+    }
+}
